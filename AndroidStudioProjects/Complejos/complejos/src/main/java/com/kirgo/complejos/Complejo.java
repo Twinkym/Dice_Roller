@@ -13,6 +13,9 @@ class Complejo {
         return real + "+" + imaginario + "i";
     }
 
+    /** Suma al complejo de este objeto otro complejo
+     * @param v el complejo que sumamos
+     */
     public void suma(Complejo v) {
         real = real + v.real;
         imaginario = imaginario + v.imaginario;
